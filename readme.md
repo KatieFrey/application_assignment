@@ -10,14 +10,14 @@
 
 ie: const quotes = require("random-movie-quotes");
 
-4.) Change the script in package.json to be able run node on my server.
+4.) Add the following script in package.json to start the dev server.
 
 ie:
 "scripts": {
 "dev": "node index.js"
 }
 
-5.) Finally open up your server by running 'npm run dev' on the terminal, open your browser and type in the url 'localhost:3000' as the port in my server is assigned to 3000.
+5.) Finally start your dev server by running 'npm run dev' in the terminal, open your browser and type in the url 'localhost:3000'.
 
 ## Objectives
 
