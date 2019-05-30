@@ -6,18 +6,18 @@
 
 2.) Install your dependencies. Inside your terminal (make sure you're in the same directory) use 'npm install' to install npm packages already listed as dependencies in your package.json and 'npm install random-movie-quotes' to install the movie quotes packages. Add node_modules into your .gitignore file if it doesn't exist already.
 
-3.) To debug the application, first I updated the server in 'index.js' to require 'random-movie-quotes' and assigned it as a constant 'quotes' as its named in the 'get' api route.
+3.) To debug the application, first update the server in 'index.js' to require 'random-movie-quotes' and assign it as a constant 'quotes' as its named in the 'get' api route.
 
 ie: const quotes = require("random-movie-quotes");
 
-4.) I then changed the script in package.json to be able run node on my server.
+4.) Change the script in package.json to be able run node on my server.
 
 ie:
 "scripts": {
 "dev": "node index.js"
 }
 
-5.) Finally I opened up my server by running npm run dev on the terminal, opened up my browser and typed in localhost:3000 as the port in my server is assigned to 3000.
+5.) Finally open up your server by running 'npm run dev' on the terminal, open your browser and type in the url 'localhost:3000' as the port in my server is assigned to 3000.
 
 ## Objectives
 
